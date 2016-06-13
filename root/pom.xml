@@ -182,7 +182,14 @@
   
   <!-- Define versions of very common components -->
   <dependencyManagement>
-    <dependencies>
+		<dependencies>
+			  <!-- 2016-06-13 marsbard -->
+				<!-- http://mvnrepository.com/artifact/com.googlecode.javacpp/javacpp -->
+				<dependency>
+					<groupId>com.googlecode.javacpp</groupId>
+					<artifactId>javacpp</artifactId>
+					<version>0.4</version>
+				</dependency>
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
